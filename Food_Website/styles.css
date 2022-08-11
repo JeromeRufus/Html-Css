@@ -1,0 +1,25 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:linear-gradient(45deg,#706677,#A6808C,#ccb7ae);
+    font-family: "Comis sans MS",sans-serif;
+    text-align: center;
+}
+h2{
+    background:linear-gradient(45deg,#987284,#75b9be,#d0d6b5);
+    color: white;
+    padding: 10px;
+    width: auto;
+    border-radius: 50%;
+    width: 800px;
+    margin: auto;
+
+}
+table{
+    width: 100%;
+}
+img{
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+}
