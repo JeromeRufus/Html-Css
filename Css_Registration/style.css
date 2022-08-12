@@ -1,0 +1,41 @@
+body{
+    background-image: url(../img/Pulp\ Fiction\ \(1994\)\ Nominated\ for\ seven\ Oscars….jfif);
+}
+.register-div{
+    font-family: Arial,sans-serif;
+    background: linear-gradient(45deg,#b3c0a4,#505268,#27233a);
+    width: 300px;
+    color: white;
+    padding: 15px;
+    margin: 50px auto;
+}
+.register-div h2{
+    text-align: center;
+}
+.form-group label{
+    display: block;
+    margin: 10px 0;
+}
+.form-control{
+    font-size: 18;
+    height: 35px;
+    outline: none;
+    border: none;
+    width: 280px;;
+}
+.register-btn{
+    margin: 15px 0;
+    background: linear-gradient(45deg,#41337a,#6ea4bf,#c3efeb) ;
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    width:290px;
+    border:none;
+    box-shadow: 0 5px 10px black;
+}
+.fa-user-cricle{
+    
+}
+.form-control:focus{
+    background-color: #6ea4bf;
+}
