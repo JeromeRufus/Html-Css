@@ -11,8 +11,31 @@
             }
             .main-header{
                 background: white url("img/Home.jfif") no-repeat scroll center;
-                padding: 20px;
-                background-size: cover;
+                padding: 12px;
+                box-shadow: 0 0 10px black;
+                text-shadow: 0 3px 3px black;
+            }
+            .main-nav{
+                background: linear-gradient(45deg,#c1c1c1,#2c4251,#b6c649);
+                padding: 5px;
+                box-shadow: 0 0 1px black;
+
+            }
+            .main-nav a{
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+                padding: 10px 25px;
+                display: inline;
+
+            }
+            .main-nav a:hover{
+                background: linear-gradient(45deg,#ddd78d,#dcbf85,#8b635c);
+                border-radius: 10px;
+            }
+            .main-nav a:active{
+                background: linear-gradient(45deg,#ebe9e9,#f3f8f2,#3581b8);
+                border-radius: 50px;
             }
         </style>
     </head>
@@ -20,5 +43,13 @@
         <header class="main-header">
         <h1>HTML & CSS</h1>
     </header>
+        <nav class="main-nav">
+            <a href="" class="active">Home</a>
+            <a href="">About</a>
+            <a href="">Contact us</a>
+            <a href="">Course</a>
+            <a href="">Careers</a>
+
+        </nav>
     </body>
 </html>
