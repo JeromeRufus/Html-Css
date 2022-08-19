@@ -19,6 +19,8 @@
                 background: linear-gradient(45deg,#c1c1c1,#2c4251,#b6c649);
                 padding: 5px;
                 box-shadow: 0 0 1px black;
+                position: sticky;
+                top: 0;
 
             }
             .main-nav a{
@@ -33,11 +35,21 @@
                 background: linear-gradient(45deg,#ddd78d,#dcbf85,#8b635c);
                 border-radius: 10px;
             }
-            .main-nav a:active{
-                background: linear-gradient(45deg,#ebe9e9,#f3f8f2,#3581b8);
+            .main-nav a.active{
+                background: linear-gradient(45deg,#ffd275,#e8ae68,#a57f60da);
                 border-radius: 50px;
             }
-        </style>
+            section{
+                padding: 20px;
+            }
+            article h2{
+                color: blueviolet;
+            }
+            article p{
+                font-size: 18px;
+                color:darkslategray ;
+            }
+          </style>
     </head>
     <body>
         <header class="main-header">
@@ -48,8 +60,35 @@
             <a href="">About</a>
             <a href="">Contact us</a>
             <a href="">Course</a>
-            <a href="">Careers</a>
-
+            <a href="">Careers</a> 
         </nav>
+
+        <section>
+            <article>
+                <h2>React training</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illum quis nesciunt sequi deleniti sapiente quos dicta numquam odit, libero explicabo culpa ipsum quaerat cupiditate ut ducimus et. Iusto, tempore.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eligendi veniam. Numquam possimus vel nam corporis libero quia unde obcaecati sed asperiores! Ipsum maxime officiis voluptas odit quasi delectus magnam.</p>
+            </article>
+
+            <article>
+                <h2>Angular training</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illum quis nesciunt sequi deleniti sapiente quos dicta numquam odit, libero explicabo culpa ipsum quaerat cupiditate ut ducimus et. Iusto, tempore.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eligendi veniam. Numquam possimus vel nam corporis libero quia unde obcaecati sed asperiores! Ipsum maxime officiis voluptas odit quasi delectus magnam.</p>
+            </article>
+
+            <article>
+                <h2>MEAN stack training</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illum quis nesciunt sequi deleniti sapiente quos dicta numquam odit, libero explicabo culpa ipsum quaerat cupiditate ut ducimus et. Iusto, tempore.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eligendi veniam. Numquam possimus vel nam corporis libero quia unde obcaecati sed asperiores! Ipsum maxime officiis voluptas odit quasi delectus magnam.</p>
+            </article>
+
+            <article>
+                <h2>React training</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illum quis nesciunt sequi deleniti sapiente quos dicta numquam odit, libero explicabo culpa ipsum quaerat cupiditate ut ducimus et. Iusto, tempore.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eligendi veniam. Numquam possimus vel nam corporis libero quia unde obcaecati sed asperiores! Ipsum maxime officiis voluptas odit quasi delectus magnam.</p>
+            </article>
+
+
+        </section>
     </body>
 </html>
